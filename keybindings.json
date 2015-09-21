@@ -13,9 +13,14 @@
         "key": "ctrl+n",
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFolder"
     }
     // {
-    //     "key": "ctrl+s",          
+    //     "key": "ctrl+s",
     //     "command": "workbench.action.tasks.build"
     // }
+
 ]
