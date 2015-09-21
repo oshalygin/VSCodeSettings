@@ -7,17 +7,17 @@
 	"jshint.enable": true,
 	"editor.insertSpaces": true,
 	"editor.formatOnType": true,
-	"editor.referenceInfos": false,
+	"editor.referenceInfos": true,
 	"files.trimTrailingWhitespace": true,
     "editor.tabSize": 4,
-    
+
 	"typescript.useCodeSnippetsOnMethodSuggest": true,
 
 	"files.exclude": {
 		"**/.git": true,
-		"**/.DS_Store": true,
-		"**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
-		"**/*.js.map": true
+		"**/.DS_Store": true
+		// "**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
+		// "**/*.js.map": true
 	},
 
 	"javascript.validate.enable": true,
