@@ -15,9 +15,9 @@
 
 	"files.exclude": {
 		"**/.git": true,
-		"**/.DS_Store": true
-		// "**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
-		// "**/*.js.map": true
+		"**/.DS_Store": true,
+		"**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
+		"**/*.js.map": true
 	},
 
 	"javascript.validate.enable": true,
