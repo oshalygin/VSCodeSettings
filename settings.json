@@ -1,0 +1,43 @@
+
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.wrappingColumn": 0,
+
+	"editor.quickSuggestionsDelay": 3,
+
+	"jshint.enable": true,
+	"editor.insertSpaces": true,
+	"editor.formatOnType": true,
+	"editor.referenceInfos": true,
+	"files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		// "**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
+		"**/*.js.map": true
+	},
+
+	"javascript.validate.enable": true,
+	"javascript.validate.lint.comparisonOperatorsNotStrict": "warning",
+	"javascript.validate.lint.curlyBracketsMustNotBeOmitted": "warning",
+	"javascript.validate.lint.emptyBlocksWithoutComment": "warning",
+	"javascript.validate.lint.forcedTypeConversion": "warning",
+	"javascript.validate.lint.functionsInsideLoops": "warning",
+	"javascript.validate.lint.missingSemicolon": "warning",
+	"javascript.validate.lint.mixedTypesArithmetics": "warning",
+	"javascript.validate.lint.newOnLowercaseFunctions": "warning",
+	"javascript.validate.lint.newOnReturningFunctions": "warning",
+	"javascript.validate.lint.parametersDontMatchSignature": "warning",
+	"javascript.validate.lint.primitivesInInstanceOf": "warning",
+	"javascript.validate.lint.semicolonsInsteadOfBlocks": "warning",
+	"javascript.validate.lint.tripleSlashReferenceAlike": "warning",
+	"javascript.suggest.alwaysAllWords": true,
+	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
+	"javascript.validate.lint.unusedFunctions": "warning",
+	"javascript.validate.lint.unusedVariables": "warning"
+
+}

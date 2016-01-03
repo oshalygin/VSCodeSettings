@@ -1,0 +1,31 @@
+
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFolder"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.reloadWindow"
+    }
+    // {
+    //     "key": "ctrl+s",
+    //     "command": "workbench.action.tasks.build"
+    // }
+
+]
