@@ -17,6 +17,7 @@
 		"**/.git": true,
 		"**/.DS_Store": true,
 		// "**/*.js": {"when": "$(basename).ts"}, //hides js files when ts exists
+
 		"**/*.js.map": true
 	},
 
@@ -40,3 +41,4 @@
 	"javascript.validate.lint.unusedVariables": "warning"
 
 }
+
