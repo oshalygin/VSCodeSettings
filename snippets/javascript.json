@@ -16,8 +16,7 @@
     "Log to console" : {
         "prefix": "cl",
         "body": [
-            "console.log('$1');",
-            "$2"
+            "console.log(\"$1\");"
         ],
         "description": "Logging to console"
     }
